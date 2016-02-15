@@ -1,0 +1,23 @@
+{
+  "name": "vvval/binary",
+  "description": "Lightweight tool to read/write tons of data directly in file, skipping memory usage",
+  "authors": [
+    {
+      "name": "Valentin V / vvval",
+      "email": "vintsukevich@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vvval\\Binary\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Vvval\\Binary\\Tests\\": "tests"
+    }
+  }
+}
